@@ -1,0 +1,66 @@
+/* basic configuration */
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* START login style */
+.login-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-container{
+    box-shadow: 10px 10px 40px rgba(0,0,0, 0.1);
+    display: flex;
+    border-radius: 10px;
+}
+.login-container .left-log img{
+    width: 380px;
+    height: 400px;
+}
+.login-container .left-log, .login-container .left-log img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login-container .right-log{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.login-container .right-log{
+    padding: 20px;
+}
+
+.right-log, .left-log{
+    flex:  1;
+}
+
+.right-log h2{
+    font-weight: 800;
+}
+.right-log input[type="text"], .right-log input[type="password"]{
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.right-log input[type="submit"]{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #0063e5;
+    color: #fff;
+}
+
+/* END login style */

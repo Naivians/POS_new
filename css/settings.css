@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ededed;
+}
+
+table{
+    box-shadow: 10px 10px 40px rgba(0,0,0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tables-container{
+    height: 300px;
+    overflow-y: scroll;
+}
+.white{
+    background-color: #fff;
+}

@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin_top_nav{
+    margin-left: 200px;
+    background-color: #fff;
+}
+.admin_top_nav .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.admin_top_nav .admin_acc p{
+    padding: 0;
+    margin: 0;
+}
+.admin_top_nav .admin_acc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-container {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    transition: .5s ease;
+}
+.modal-container .modal-message{
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.modal-container .modal-message img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 2. Sideabr */
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #4c71dd;
+    color: #fff;
+    z-index: 1;
+}
+
+.sidebar .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 2px solid #537cf5;
+}
+
+.sidebar .navigations a{
+    display: block;
+    color: #cdcdcd;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .5s ease;
+    padding-left: 10px;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.sidebar .navigations a:hover{
+    background-color: rgb(96, 133, 245);
+    color: #fff;
+}
+
+.sidebar .navigations a:focus{
+    background-color: rgb(96, 133, 245);
+    color: #fff;
+}
+.img {
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
