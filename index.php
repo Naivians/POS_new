@@ -21,6 +21,7 @@ if (isset($_POST['login'])) {
         $row_count = $result->num_rows;
 
         if ($row_count > 0) {
+            // awjhdawjdjkadh
 
             $result = $result->fetch_assoc();
             $role = $result['role'];
